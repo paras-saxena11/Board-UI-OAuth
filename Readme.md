@@ -26,7 +26,7 @@ What you have to achieve -<br/>
 
 ## Live Link
 
-<h3>https://open-in-app-assignment.vercel.app</h3>
+<h3>https://openin-app-assessment-pink.vercel.app</h3>
 
 ## Preview
 
