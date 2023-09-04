@@ -120,6 +120,29 @@ const BottomCards = () => {
     } else {
       setDetails(true);
     }
+    setBasic(false);
+    setSocial(true);
+    //next
+    const nextBtn = document.querySelector("#nextBtn");
+    nextBtn.classList.remove("hidden");
+
+    //back
+    const back = document.querySelector("#back");
+    back.classList.add("hidden");
+
+    //submit
+    const submitBtn = document.querySelector("#submitBtn");
+    submitBtn.classList.add("hidden");
+
+    const borderBasic = document.querySelector("#basic");
+    const borderSocial = document.querySelector("#social");
+
+    borderBasic.classList.remove("border-b-gray");
+    borderBasic.classList.add("border-b-[#3F84F8]");
+
+    borderSocial.classList.remove("border-b-[#3F84F8]");
+    borderSocial.classList.add("border-b-gray");
+
     const showModal = document.querySelector(".show-modal");
     showModal.classList.add("hidden");
   };
