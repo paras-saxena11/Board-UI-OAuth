@@ -6,7 +6,10 @@
 
 ## Video Preview
 
-https://github.com/paras-saxena11/OpeninApp-assessment/assets/77022754/1bacf8f4-96b0-45f3-a999-36be87f4c0b4
+
+
+https://github.com/paras-saxena11/OpeninApp-assessment/assets/77022754/f00c24a5-997e-4496-8e99-ddff11c84316
+
 
 
 ## Images
