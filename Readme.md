@@ -1,41 +1,17 @@
 # OpeninApp Assignment - React.Js Developer (Intern)
 
-You are provided with 2 basic screens Dashboard UI. <br/>
-You need to convert the high Fidelity design into code using React/Next and CSS/SASS/SCSS/LESS/Tailwind CSS. <br/>
-<b>Use of any other CSS framework is prohibited.</b> <br/>
-What you have to achieve -<br/>
-
-<ul>
-  <li>
-    Make a basic auth using Google (Login/Signup using google)
-    <ul>
-      <li>Resource: https://next-auth.js.org</li>
-      <li>Design File Link: https://www.figma.com/file/gKLhBDaTmdNDzHjsvqFMmC/Front-EndDeveloper-Task?node-id=0-1&t=rJ4A60cFvrDoc5TE-0</li>
-    </ul>
-  </li>
-  <li>
-    The dashboard should be pixel-perfect and look like a replica of the design.
-  </li>
-  <li>
-    Don’t blindly copy and paste the Figma inspect code. Use your skills to make it fit all screens, in simple terms it should be responsive.
-  </li>
-  <li>
-    The charts should be working with some dummy data.
-  </li>
-</ul>
-
 ## Live Link
 
 <h3>https://openin-app-assessment-pink.vercel.app</h3>
 
 ## Preview
 
-<br/>
-
-![image]()
-<br/>
-<br/>
-![image]()
+<img src="results/image1.png"  width="800" height="600">
+<img src="results/image2.png"  width="800" height="600">
+<img src="results/image3.png"  width="800" height="600">
+<img src="results/image4.png"  width="800" height="600">
+<img src="results/image5.png"  width="800" height="600">
+<img src="results/image6.png"  width="800" height="600">
 
 <hr/>
 

@@ -109,17 +109,8 @@ const BottomCards = () => {
     setPhone("");
     setInstaLink("");
     setYtLiink("");
-    if (
-      profileemail === "" ||
-      profileinstaLink == "" ||
-      profilename === "" ||
-      profilephone === "" ||
-      profileytLink === ""
-    ) {
-      alert("please fill details");
-    } else {
-      setDetails(true);
-    }
+    setDetails(true);
+
     setBasic(false);
     setSocial(true);
     //next
@@ -184,6 +175,7 @@ const BottomCards = () => {
                     type="text"
                     id="Name"
                     value={name}
+                    required
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Eg. John Doe"
                     className="py-[16px] px-[12px]"
@@ -192,9 +184,10 @@ const BottomCards = () => {
                 <div className="flex flex-col mb-3">
                   <label htmlFor="Email">Enter Email</label>
                   <input
-                    type="text"
+                    type="email"
                     id="Email"
                     value={email}
+                    required
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Eg. John@xyz.com"
                     className="py-[16px] px-[12px]"
@@ -203,9 +196,10 @@ const BottomCards = () => {
                 <div className="flex flex-col mb-3">
                   <label htmlFor="Phone">Enter Phone</label>
                   <input
-                    type="text"
+                    type="number"
                     id="Phone"
                     value={phone}
+                    required
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="Eg.  9123456789"
                     className="py-[16px] px-[12px]"
@@ -256,6 +250,7 @@ const BottomCards = () => {
               Next
             </button>
             <button
+              type="submit"
               id="submitBtn"
               className="p-3 bg-[#3E84F8] w-fit-content h-[40px] rounded-[8px] hidden"
               onClick={handleSubmit}
