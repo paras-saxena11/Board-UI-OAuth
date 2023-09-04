@@ -109,7 +109,17 @@ const BottomCards = () => {
     setPhone("");
     setInstaLink("");
     setYtLiink("");
-    setDetails(true);
+    if (
+      profileemail === "" ||
+      profileinstaLink == "" ||
+      profilename === "" ||
+      profilephone === "" ||
+      profileytLink === ""
+    ) {
+      alert("please fill details");
+    } else {
+      setDetails(true);
+    }
     const showModal = document.querySelector(".show-modal");
     showModal.classList.add("hidden");
   };
@@ -128,7 +138,7 @@ const BottomCards = () => {
           <div className="h-[377px]">
             <div
               id="ModalPRO"
-              className="flex justify-around border-b-blue mx-auto w-[480px]"
+              className="flex justify-around border-b-blue mx-auto w-[480px] "
             >
               <h2
                 id="basic"
@@ -217,14 +227,14 @@ const BottomCards = () => {
             </button>
             <button
               id="nextBtn"
-              className="p-3 bg-[#3E84F8] w-[64px] h-[40px] rounded-[8px]"
+              className="p-3 bg-[#3E84F8] w-fit-content h-[40px] rounded-[8px]"
               onClick={handleNext}
             >
               Next
             </button>
             <button
               id="submitBtn"
-              className="p-3 bg-[#3E84F8] w-[64px] h-[40px] rounded-[8px] hidden"
+              className="p-3 bg-[#3E84F8] w-fit-content h-[40px] rounded-[8px] hidden"
               onClick={handleSubmit}
             >
               Submit
@@ -290,8 +300,8 @@ const BottomCards = () => {
                 <h3 className="font-bold text-lg">{profilename}</h3>
               </div>
               <div className="flex flex-col">
-                <div className="flex justify-between items-center p-2">
-                  <div className="flex justify-start ">
+                <div className="flex justify-between items-center p-2 card-id">
+                  <div className="flex justify-start">
                     <Image
                       src={whatsapp}
                       alt="Phone"
@@ -312,8 +322,8 @@ const BottomCards = () => {
                     <span>{profileinstaLink}</span>
                   </div>
                 </div>
-                <div className="flex justify-between items-center p-2">
-                  <div className="flex justify-start ">
+                <div className="flex justify-between items-center p-2 card-id">
+                  <div className="flex justify-start">
                     <Image
                       src={EmailLogo}
                       alt="Email"

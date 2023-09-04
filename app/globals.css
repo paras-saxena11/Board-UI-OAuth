@@ -34,6 +34,10 @@
   #profileCard {
     width: 70%;
   }
+  .card-id {
+    text-align: start;
+    flex-direction: column;
+  }
 }
 
 @media all and (max-width: 450px) {

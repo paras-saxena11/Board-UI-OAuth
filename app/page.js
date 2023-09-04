@@ -3,11 +3,11 @@ import Form from "@/components/Form";
 import { useSession } from "next-auth/react";
 import { useRef, useEffect } from "react";
 import { redirect } from "next/navigation";
-import Image from "next/image";
-import insta from "../public/insta.png";
-import twitter from "../public/twitter.png";
-import linkedin from "../public/linkedin.png";
-import discord from "../public/discord.png";
+// import Image from "next/image";
+// import insta from "../public/insta.png";
+// import twitter from "../public/twitter.png";
+// import linkedin from "../public/linkedin.png";
+// import discord from "../public/discord.png";
 
 export default function Home() {
   const session = useSession();
